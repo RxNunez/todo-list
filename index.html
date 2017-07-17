@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/scripts.js"type="text/javascript"></script>
+    <title>To Do</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To Do List</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add a task to be done:</h2>
+          <form id="task">
+            <div class="form-group">
+                <label for="task">Task:</label>
+                <input type="text" class="form-control" id="newTask">
+            </div><!--form-group-->
+            <div class="form-group">
+                <label for="status">Status:</label>
+                <input type="text" class="form-control" id="newStatus">
+            </div><!--form-group-->
+
+            <button type="submit" name="btn">Add Task</button>
+            <button type="checkbox" id="removebutton" value="completed">Completed</button>
+            <br>
+            </form><!--task-->
+
+                  <ul id="taskList">
+
+                  </ul>
+
+        </div><!--col-md-5-->
+      </div><!--row-->
+    </div><!--container-->
+  </body>
+</html>
